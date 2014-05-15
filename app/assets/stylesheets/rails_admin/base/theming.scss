@@ -216,7 +216,6 @@ body.rails_admin {
     .headerSortDown:hover {
       &:after {
         visibility:visible;
-        @include opacity(60);
       }
     }
     .headerSortUp {
@@ -226,8 +225,6 @@ body.rails_admin {
         border-right: 4px solid transparent;
         border-top: 4px solid #000;
         visibility:visible;
-        @include box-shadow(none);
-        @include opacity(60);
       }
     }
 
